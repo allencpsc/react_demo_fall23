@@ -10,6 +10,7 @@ import {
 import ErrorNotFound from './components/ErrorNotFound';
 import Body from './components/Body';
 import BodyHooks from './components/BodyHooks';
+import IndexRoute from './components/IndexRoute';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <ErrorNotFound />,
     children: [
+      {
+        index: true,
+        element: <IndexRoute />
+      },
       {
         path: "hooks",
         element: <BodyHooks />,
