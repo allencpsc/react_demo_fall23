@@ -13,3 +13,15 @@ test('check if date present', () => {
 });
 
 
+// test('check if title present', () => {
+//     render(<IndexRoute/>);
+//     //const titleElement = screen.getByText(/Title: /i);
+//     //expect(titleElement).toBeInTheDocument();
+// });
+
+// test('check if description present', () => {
+//     render(<IndexRoute/>);
+//     //const descElement = screen.getByText(/Description: /i);
+//     //expect(descElement).toBeInTheDocument();
+// });
+
